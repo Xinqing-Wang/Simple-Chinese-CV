@@ -1,0 +1,84 @@
+\documentclass{cv}
+
+\usepackage{adjustbox}
+\usepackage{tabularx}
+\usepackage{enumitem}
+
+
+%更改相关颜色请见cv.cls中\definecolor部分%
+
+\begin{document}
+
+   \addPageColorBars
+
+
+      %个人相关信息
+      \begin{minipage}[t]{0.55\textwidth}
+         \name{三枝叶留佳}  \\
+         \vfill
+            \wanted{御神巫女}\\
+         \vfill
+            \Phone{1145141919810}  \\
+         \vfill
+         \QQ{072107210721}\\
+         \vfill
+            \Email{HarukaSaikusa@buster.com}  \\
+         \vfill
+         \vfill
+            \PersonalInfo {无忧无虑·欢乐无限·喧嚣少女}
+         %还可以使用\Wechat{填写您的微信号} \Site{网址}{网站名字} \Github{Github的网站}{名字}
+   \end{minipage}
+   \hfill
+   %个人头像（avatar.png）根据照片实际情况填写数值
+   \begin{adjustbox}{valign=t, max height=0.2\textheight}
+      \includegraphics[width=0.2\textwidth]{avatar.png} 
+   \end{adjustbox}
+   \vspace{5pt}
+
+   %%Tips：适当调整个人头像部分的相关数值，以及个人相关信息部分的间距，确保左文右图保持整齐！
+
+%\cvsection{您想用的图标}{标题名称}
+\cvsection{\faGraduationCap}{教育经历}   
+   \vspace{5pt}
+   \begin{tabularx}{\textwidth}{XXXXX}
+      \textbf{Little Buster!} & 要你管& 高中 & 无所谓 & xxxx.xx-xxxx.xx\\
+      %textbf{} &  &   &   & xxxx.xx-xxxx.xx\\
+   \end{tabularx}
+   \vspace{5pt}
+
+\cvsection{\faCode}{专业技能}
+\noindent
+\begin{description}[topsep=5pt,leftmargin=0pt,itemsep=0.8pt ]
+    \item[Music：] 与Riki听过很多，但不知道
+    \item[烹饪：] 才疏学浅
+    \item[添麻烦：]最在行 
+    %\item[技能标题]内容 
+\end{description}
+\vspace{5pt}
+
+
+\cvsection{\faArchive}{项目经历}
+\vspace{5pt}
+\noindent
+ \begin{tabularx}{\textwidth}{XXX}
+  $\bullet$ \textbf{名字没想好} &总之是主角  & xxxx.xx-xxxx.xx
+ \end{tabularx}
+ \textbf{项目介绍：}没有\\
+ \textbf{技术栈：}没有\\
+ \textbf{项目亮点：}
+\begin{itemize}[topsep=0pt,itemsep=0.8pt]
+   \item 基于CNN的图像分类，在某些重要场景能够快速识别我与佳奈多!
+   
+   \end{itemize}
+%增加新的项目经历%
+%\begin{tabularx}{\textwidth}{XXX}
+%$\bullet$ \textbf{Bug Record} & 后端开发 & 2024.12-2025.02
+% \end{tabularx}
+ %\textbf{项目介绍：}没有\\
+ %\textbf{技术栈：}没有\\
+ %\textbf{项目亮点：}
+%\begin{itemize}[topsep=0pt,itemsep=0.8pt]
+   %\item 
+   %\end{itemize}
+
+\end{document}

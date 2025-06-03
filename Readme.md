@@ -9,4 +9,6 @@
 
 ## 字体、颜色设置详见cv.cls文件哦！
 
+## 图标基于fontawesome，可以在fontawesome.pdf查询哦
+
 ## 对了，对了 avatar.png 来自于Pivix [@Blue]("https://www.pixiv.net/users/338527") 大佬作品！

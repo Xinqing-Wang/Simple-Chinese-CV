@@ -15,6 +15,7 @@
 \RequirePackage{tikz}
 \RequirePackage{eso-pic}
 \RequirePackage{graphicx}
+\RequirePackage{tcolorbox}
 
 %中文与字体支持
 \RequirePackage{listings}
@@ -43,7 +44,7 @@
 \definecolor{headerbg}{HTML}{E46AAA} % 页眉颜色条
 \definecolor{footerbg}{HTML}{E46AAA}  % 页脚颜色条
 \definecolor{sectioncolor}{HTML}{5370C3} %标题字体颜色
-
+\definecolor{labelbg}{HTML}{409EFF} %标签背景色
 
 
 %页面美观，添加顶部底部颜色条,去掉页眉页脚
@@ -113,7 +114,12 @@
 
 
 
+\newcommand{\labelblock}[1]
+{
+    \colorbox{labelbg}{{\color{white} \bfseries #1}}
 
+
+}
 
 
 
